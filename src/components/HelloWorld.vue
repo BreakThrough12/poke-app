@@ -1,8 +1,11 @@
 <template>
   <v-row>
-    <v-col cols="12">
-      <h1>Vuetify</h1>
-    </v-col>
+    <v-row>
+      <v-col cols="12">
+        <img width="300" height="300" src="../assets/img/pikachuwhite.png" />
+      </v-col>
+    </v-row>
+    <h3>Welcome to Pokedex</h3>
   </v-row>
 </template>
 
@@ -14,3 +17,7 @@ export default {
   },
 };
 </script>
+<style scoped>
+.font-title {
+}
+</style>
